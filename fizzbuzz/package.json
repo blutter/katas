@@ -16,10 +16,14 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "jasmine-core": "2.4.1",
     "concurrently": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.3.0",
+    "gulp-tsc": "^1.1.5",
+    "jasmine-core": "2.4.1",
     "lite-server": "^2.2.0",
+    "run-sequence": "^1.2.1",
     "typescript": "^1.8.10",
-    "typings":"^1.0.4"
+    "typings": "^1.0.4"
   }
 }
