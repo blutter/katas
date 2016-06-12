@@ -12,7 +12,7 @@
     "tsc:w": "tsc -w",
     "typings": "typings"
   },
-  "author": "",
+  "author": "Benjamin Tse",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
