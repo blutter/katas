@@ -13,6 +13,9 @@ export class FizzBuzzPlayer {
       result = 'Fizz';
     }
     if (this.numberOfPlays % 5 === 0) {
+      if (result.length > 0) {
+        result += ' ';
+      }
       result += 'Buzz';
     }
     if (result.length === 0) {

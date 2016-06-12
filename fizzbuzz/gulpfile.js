@@ -17,3 +17,8 @@ gulp.task('test', function() {
 gulp.task('default', function() {
    runSequence( 'compile', 'test' );
 });
+
+gulp.task('watch', function() {
+  runSequence('default');
+  gulp.watch('src/*.ts', ['default']);
+});
