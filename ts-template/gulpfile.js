@@ -5,7 +5,7 @@ var tsProject = ts.createProject("tsconfig.json");
 var runSequence = require('run-sequence');
 
 gulp.task("default", function () {
-    return tsProject.src()
+    return gulp.src('src/*.ts')
         .pipe(ts(tsProject))
         .js.pipe(gulp.dest("dist"));
 });
