@@ -7,14 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
-    "postinstall": "typings install",
     "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "typings": "typings"
+    "tsc:w": "tsc -w"
   },
   "author": "Benjamin Tse",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
     "concurrently": "^2.0.0",
     "gulp": "^3.9.1",
@@ -23,7 +22,7 @@
     "jasmine-core": "2.4.1",
     "lite-server": "^2.2.0",
     "run-sequence": "^1.2.1",
-    "typescript": "^1.8.10",
-    "typings": "^1.0.4"
+    "typescript": "3.5.2",
+    "@types/jasmine": "^3.3.13"
   }
 }
